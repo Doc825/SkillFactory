@@ -1,19 +1,24 @@
-package org.example;
+package org.models;
+import enums.StudyProfile;
 
 public class University {
 
-    String id;
-    String fullName;
-    String shortName;
-    int yearOfFoundation;
-    Students.StudyProfile mainProfile;
+    private String id;
+    private String fullName;
+    private String shortName;
+    private int yearOfFoundation;
+    private StudyProfile mainProfile;
 
-    public University(String id, String fullName, String shortName, int yearOfFoundation, Students.StudyProfile mainProfile) {
+    public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;
         this.fullName = fullName;
         this.shortName = shortName;
         this.yearOfFoundation = yearOfFoundation;
         this.mainProfile = mainProfile;
+    }
+
+    public University() {
+
     }
 
     public String getId() {
@@ -48,14 +53,14 @@ public class University {
         this.yearOfFoundation = yearOfFoundation;
     }
 
-    public Students.StudyProfile getMainProfile() {
+    public StudyProfile getMainProfile() {
         return mainProfile;
     }
 
-    public void setMainProfile(Students.StudyProfile mainProfile) {
+    public University setMainProfile(StudyProfile mainProfile) {
         this.mainProfile = mainProfile;
+        return this;
     }
-
     @Override
     public String toString() {
         return "University{" +

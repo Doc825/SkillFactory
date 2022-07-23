@@ -1,16 +1,20 @@
-package org.example;
+package org.models;
 
 public class Students {
-    String fullName;
-    String universityId;
-    int currentCourseNumber;
-    float avgExamScore;
+    private String fullName;
+    private String universityId;
+    private int currentCourseNumber;
+    private float avgExamScore;
 
     public Students(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
         this.fullName = fullName;
         this.universityId = universityId;
         this.currentCourseNumber = currentCourseNumber;
         this.avgExamScore = avgExamScore;
+    }
+
+    public Students() {
+
     }
 
     public String getFullName() {
@@ -45,17 +49,6 @@ public class Students {
         this.avgExamScore = avgExamScore;
     }
 
-    enum StudyProfile{
-        MEDICINE("Медицина"), ENGINEERING("Инженерия"), MARKETING("Маркетинг");
-        private String profileName;
-        StudyProfile(String profileName){
-            this.profileName = profileName;
-        }
-        public String getProfileName(){
-            return profileName;
-        }
-
-    }
 
     @Override
     public String toString() {
