@@ -1,12 +1,17 @@
 package org.models;
+import com.google.gson.annotations.SerializedName;
 import enums.StudyProfile;
 
 public class University {
-
+    @SerializedName("ID университета")
     private String id;
+    @SerializedName("Назавание")
     private String fullName;
+    @SerializedName("Сокращенное название")
     private String shortName;
+    @SerializedName("Год основания")
     private int yearOfFoundation;
+    @SerializedName("Основное направление обучения")
     private StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
@@ -18,7 +23,6 @@ public class University {
     }
 
     public University() {
-
     }
 
     public String getId() {

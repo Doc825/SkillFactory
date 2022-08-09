@@ -11,7 +11,7 @@ public class ComparatorUtil {
 
     }
 
-    public static ForStudents getStudentsComparator(StudentsComparatorType studentsComparatorType) {
+    public static InterfaceForStudents getStudentsComparator(StudentsComparatorType studentsComparatorType) {
         return switch (studentsComparatorType) {
             case UNIVERSITYID -> new UniversityID();
             case FULLNAME -> new FullName();
@@ -21,7 +21,7 @@ public class ComparatorUtil {
         };
     }
 
-    public static ForUniversity getUniversityComparator(UniversityComparatorType universityComparatorType){
+    public static InterfaceForUniversity getUniversityComparator(UniversityComparatorType universityComparatorType){
         return switch (universityComparatorType) {
             case FULLNAME -> new comparator.university.FullName();
             case ID -> new ID();

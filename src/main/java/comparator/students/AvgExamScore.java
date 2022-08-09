@@ -4,7 +4,7 @@ import org.models.Students;
 
 import java.util.Comparator;
 
-public class AvgExamScore implements ForStudents{
+public class AvgExamScore implements InterfaceForStudents {
     @Override
     public int compare(Students o1, Students o2) {
         return Float.compare(o1.getAvgExamScore(), o2.getAvgExamScore());
@@ -12,6 +12,6 @@ public class AvgExamScore implements ForStudents{
 
     @Override
     public Comparator<Students> reversed() {
-        return ForStudents.super.reversed();
+        return InterfaceForStudents.super.reversed();
     }
 }

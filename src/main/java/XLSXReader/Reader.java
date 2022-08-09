@@ -50,7 +50,8 @@ public class Reader {
             University university = new University();
             universities.add(university);
             university.setId(currentRow.getCell(0).getStringCellValue());
-            university.setFullName(currentRow.getCell(2).getStringCellValue());
+            university.setFullName(currentRow.getCell(1).getStringCellValue());
+            university.setShortName(currentRow.getCell(2).getStringCellValue());
             university.setYearOfFoundation((int)currentRow.getCell(3).getNumericCellValue());
             university.setMainProfile(StudyProfile.valueOf(StudyProfile.class, currentRow.getCell(4).getStringCellValue()));
 
