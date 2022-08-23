@@ -1,5 +1,5 @@
 
-package XLSXReader;
+package IO;
 import enums.StudyProfile;
 import java.io.*;
 import java.util.*;
@@ -11,9 +11,9 @@ import org.models.University;
 
 
 
-public class Reader {
+public class XlsReader {
 
-    private Reader() {
+    private XlsReader() {
     }
 
     public static List<Students> StudentReader(String filePath) throws IOException {
