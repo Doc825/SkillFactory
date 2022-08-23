@@ -10,6 +10,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.models.Statistics;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 
 public class XlsWriter {
@@ -49,17 +51,24 @@ public class XlsWriter {
             universitiesCellHeader.setCellStyle(headerStyle);
 
             for (Statistics statistics : listOfStatistics) {
+
+                BigDecimal bigDecimal = BigDecimal.valueOf(statistics.getAvgScore());
+
                 Row dataRow = statisticsSheet.createRow(rowNumber++);
                 Cell profileCell = dataRow.createCell(0);
                 profileCell.setCellValue(statistics.getStudyProfile().getProfileName());
                 Cell avgScoreCell = dataRow.createCell(1);
-                avgScoreCell.setCellValue(statistics.getAvgScore());
+                avgScoreCell.setCellValue(String.valueOf(bigDecimal.setScale(0, RoundingMode.UP)));
                 Cell numberOfStudentsCell = dataRow.createCell(2);
                 numberOfStudentsCell.setCellValue(statistics.getStudentsAmountByProfile());
                 Cell numberOfUniversitiesCell = dataRow.createCell(3);
                 numberOfUniversitiesCell.setCellValue(statistics.getUniversityAmountByProfile());
                 Cell universitiesCell = dataRow.createCell(4);
                 universitiesCell.setCellValue(statistics.getUniversityName());
+
+
+
+
             }
             try (FileOutputStream outputStream = new FileOutputStream(filepath)) {
                 workbook.write(outputStream);
