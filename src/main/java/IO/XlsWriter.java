@@ -13,14 +13,16 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class XlsWriter {
-
+    private static final Logger logger = Logger.getLogger(XlsWriter.class.getName());
     private XlsWriter() {
-
     }
 
     public static void StatisticsWriter(List<Statistics> listOfStatistics, String filepath) {
+        logger.log(Level.INFO, "Writing started");
 
         try {
             XSSFWorkbook workbook = new XSSFWorkbook();
@@ -74,7 +76,8 @@ public class XlsWriter {
                 workbook.write(outputStream);
             }
         }catch (IOException e){
-            System.out.println("Ошибка создания файла statisticsWriter.xlsx");
+            logger.log(Level.SEVERE, "Writing failed, file did not create" + e);
         }
+        logger.log(Level.INFO, "Writing complete, file created");
     }
 }

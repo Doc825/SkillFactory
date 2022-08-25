@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T03:42:04.690178400Z</date>
+  <millis>1661312524690</millis>
+  <nanos>178400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>WARNING</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Is it working?</message>
+</record>
+<record>
+  <date>2022-08-24T03:42:04.802329200Z</date>
+  <millis>1661312524802</millis>
+  <nanos>329200</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+</log>

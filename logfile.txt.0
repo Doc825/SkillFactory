@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T12:29:42.450291400Z</date>
+  <millis>1661344182450</millis>
+  <nanos>291400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>WARNING</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Is it working?</message>
+</record>
+<record>
+  <date>2022-08-24T12:29:42.515118100Z</date>
+  <millis>1661344182515</millis>
+  <nanos>118100</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T12:32:23.001438300Z</date>
+  <millis>1661344343001</millis>
+  <nanos>438300</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>WARNING</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Is it working?</message>
+</record>
+<record>
+  <date>2022-08-24T12:32:23.053962600Z</date>
+  <millis>1661344343053</millis>
+  <nanos>962600</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T12:34:15.156303900Z</date>
+  <millis>1661344455156</millis>
+  <nanos>303900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-24T12:34:15.208165500Z</date>
+  <millis>1661344455208</millis>
+  <nanos>165500</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+<record>
+  <date>2022-08-24T12:34:15.895327100Z</date>
+  <millis>1661344455895</millis>
+  <nanos>327100</nanos>
+  <sequence>2</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T12:44:47.766670Z</date>
+  <millis>1661345087766</millis>
+  <nanos>670000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-24T12:44:47.819237700Z</date>
+  <millis>1661345087819</millis>
+  <nanos>237700</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+<record>
+  <date>2022-08-24T12:44:48.493724900Z</date>
+  <millis>1661345088493</millis>
+  <nanos>724900</nanos>
+  <sequence>2</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T12:45:23.136860900Z</date>
+  <millis>1661345123136</millis>
+  <nanos>860900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-24T12:45:23.189749200Z</date>
+  <millis>1661345123189</millis>
+  <nanos>749200</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>WARNING</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Started</message>
+</record>
+<record>
+  <date>2022-08-24T12:45:23.866858400Z</date>
+  <millis>1661345123866</millis>
+  <nanos>858400</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsWriter</logger>
+  <level>INFO</level>
+  <class>IO.XlsWriter</class>
+  <method>StatisticsWriter</method>
+  <thread>1</thread>
+  <message>Writing started</message>
+</record>
+<record>
+  <date>2022-08-24T12:45:24.105221500Z</date>
+  <millis>1661345124105</millis>
+  <nanos>221500</nanos>
+  <sequence>3</sequence>
+  <logger>IO.XlsWriter</logger>
+  <level>INFO</level>
+  <class>IO.XlsWriter</class>
+  <method>StatisticsWriter</method>
+  <thread>1</thread>
+  <message>Writing complete, file created</message>
+</record>
+<record>
+  <date>2022-08-24T12:45:24.106218500Z</date>
+  <millis>1661345124106</millis>
+  <nanos>218500</nanos>
+  <sequence>4</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-24T16:21:24.152783Z</date>
+  <millis>1661358084152</millis>
+  <nanos>783000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-24T16:21:24.219268600Z</date>
+  <millis>1661358084219</millis>
+  <nanos>268600</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-25T00:47:24.514274400Z</date>
+  <millis>1661388444514</millis>
+  <nanos>274400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-25T00:47:24.599046Z</date>
+  <millis>1661388444599</millis>
+  <nanos>46000</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-25T00:47:25.351038600Z</date>
+  <millis>1661388445351</millis>
+  <nanos>38600</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-25T00:47:25.431820600Z</date>
+  <millis>1661388445431</millis>
+  <nanos>820600</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-25T00:48:31.413823600Z</date>
+  <millis>1661388511413</millis>
+  <nanos>823600</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-25T00:48:31.481665600Z</date>
+  <millis>1661388511481</millis>
+  <nanos>665600</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-25T00:48:32.150888500Z</date>
+  <millis>1661388512150</millis>
+  <nanos>888500</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-25T00:48:32.204748200Z</date>
+  <millis>1661388512204</millis>
+  <nanos>748200</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-25T01:10:00.808433500Z</date>
+  <millis>1661389800808</millis>
+  <nanos>433500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-25T01:10:00.870609300Z</date>
+  <millis>1661389800870</millis>
+  <nanos>609300</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-25T01:10:01.530480500Z</date>
+  <millis>1661389801530</millis>
+  <nanos>480500</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-25T01:10:01.579350100Z</date>
+  <millis>1661389801579</millis>
+  <nanos>350100</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
