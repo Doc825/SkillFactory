@@ -346,7 +346,7 @@
   <message>Main thread started</message>
 </record>
 <record>
-  <date>2022-08-25T01:10:00.870609300Z</date>
+  <date>2022-08-25T01:10:00.870609300Z</date
   <millis>1661389800870</millis>
   <nanos>609300</nanos>
   <sequence>1</sequence>
@@ -374,6 +374,306 @@
   <millis>1661389801579</millis>
   <nanos>350100</nanos>
   <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-29T03:45:32.649717Z</date>
+  <millis>1661744732649</millis>
+  <nanos>717000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-29T03:45:32.727510100Z</date>
+  <millis>1661744732727</millis>
+  <nanos>510100</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-29T03:45:33.626106600Z</date>
+  <millis>1661744733626</millis>
+  <nanos>106600</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-29T03:45:33.683951200Z</date>
+  <millis>1661744733683</millis>
+  <nanos>951200</nanos>
+  <sequence>3</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-29T03:49:29.059815900Z</date>
+  <millis>1661744969059</millis>
+  <nanos>815900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread started</message>
+</record>
+<record>
+  <date>2022-08-29T03:49:29.114643Z</date>
+  <millis>1661744969114</millis>
+  <nanos>643000</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-29T03:49:29.809780800Z</date>
+  <millis>1661744969809</millis>
+  <nanos>780800</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-29T03:49:29.859649400Z</date>
+  <millis>1661744969859</millis>
+  <nanos>649400</nanos>
+  <sequence>3</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>gettingStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-08-29T03:49:29.869622200Z</date>
+  <millis>1661744969869</millis>
+  <nanos>622200</nanos>
+  <sequence>4</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>gettingStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-08-29T03:49:29.870619100Z</date>
+  <millis>1661744969870</millis>
+  <nanos>619100</nanos>
+  <sequence>5</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Main thread finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-30T17:16:43.487292400Z</date>
+  <millis>1661879803487</millis>
+  <nanos>292400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application started, logger configured</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:43.547131700Z</date>
+  <millis>1661879803547</millis>
+  <nanos>131700</nanos>
+  <sequence>1</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>StudentReader</method>
+  <thread>1</thread>
+  <message>Student reader started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.443445600Z</date>
+  <millis>1661879804443</millis>
+  <nanos>445600</nanos>
+  <sequence>2</sequence>
+  <logger>IO.XlsReader</logger>
+  <level>INFO</level>
+  <class>IO.XlsReader</class>
+  <method>UniversityReader</method>
+  <thread>1</thread>
+  <message>University reader started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.500292400Z</date>
+  <millis>1661879804500</millis>
+  <nanos>292400</nanos>
+  <sequence>3</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>gettingStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.513257600Z</date>
+  <millis>1661879804513</millis>
+  <nanos>257600</nanos>
+  <sequence>4</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>gettingStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.514671800Z</date>
+  <millis>1661879804514</millis>
+  <nanos>671800</nanos>
+  <sequence>5</sequence>
+  <logger>IO.XlsWriter</logger>
+  <level>INFO</level>
+  <class>IO.XlsWriter</class>
+  <method>StatisticsWriter</method>
+  <thread>1</thread>
+  <message>Writing started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.771566300Z</date>
+  <millis>1661879804771</millis>
+  <nanos>566300</nanos>
+  <sequence>6</sequence>
+  <logger>IO.XlsWriter</logger>
+  <level>INFO</level>
+  <class>IO.XlsWriter</class>
+  <method>StatisticsWriter</method>
+  <thread>1</thread>
+  <message>Writing complete, file created</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.774558500Z</date>
+  <millis>1661879804774</millis>
+  <nanos>558500</nanos>
+  <sequence>7</sequence>
+  <logger>IO.XmlWriter</logger>
+  <level>INFO</level>
+  <class>IO.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>Xml marshalling started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:44.996567100Z</date>
+  <millis>1661879804996</millis>
+  <nanos>567100</nanos>
+  <sequence>8</sequence>
+  <logger>IO.XmlWriter</logger>
+  <level>INFO</level>
+  <class>IO.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:45.015050700Z</date>
+  <millis>1661879805015</millis>
+  <nanos>50700</nanos>
+  <sequence>9</sequence>
+  <logger>IO.XmlWriter</logger>
+  <level>INFO</level>
+  <class>IO.XmlWriter</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:45.017044100Z</date>
+  <millis>1661879805017</millis>
+  <nanos>44100</nanos>
+  <sequence>10</sequence>
+  <logger>IO.JsonWriter</logger>
+  <level>INFO</level>
+  <class>IO.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:45.018041300Z</date>
+  <millis>1661879805018</millis>
+  <nanos>41300</nanos>
+  <sequence>11</sequence>
+  <logger>IO.JsonWriter</logger>
+  <level>INFO</level>
+  <class>IO.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:45.068905200Z</date>
+  <millis>1661879805068</millis>
+  <nanos>905200</nanos>
+  <sequence>12</sequence>
+  <logger>IO.JsonWriter</logger>
+  <level>INFO</level>
+  <class>IO.JsonWriter</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2022-08-30T17:16:45.068905200Z</date>
+  <millis>1661879805068</millis>
+  <nanos>905200</nanos>
+  <sequence>13</sequence>
   <logger>Main</logger>
   <level>INFO</level>
   <class>Main</class>
